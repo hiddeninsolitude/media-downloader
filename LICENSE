@@ -1,0 +1,175 @@
+﻿MIT License
+
+Copyright (c) 2025 @hiddeninsolitude (Media Downloader)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+
+ADDITIONAL TERMS AND CONDITIONS
+
+1. DISCLAIMER OF WARRANTIES
+   This software is provided "as is" without warranty of any kind, either
+   express or implied, including but not limited to the implied warranties of
+   merchantability, fitness for a particular purpose, or non-infringement.
+
+2. LIMITATION OF LIABILITY
+   In no event shall the authors or copyright holders be liable for any claim,
+   damages, or other liability, whether in an action of contract, tort, or
+   otherwise, arising from, out of, or in connection with the software or the
+   use or other dealings in the software.
+
+3. USER RESPONSIBILITY
+   Users of this software are solely responsible for:
+   - Ensuring their use complies with applicable laws and regulations
+   - Respecting copyright and intellectual property rights
+   - Complying with terms of service of third-party platforms
+   - Any consequences arising from their use of this software
+
+4. LEGAL COMPLIANCE
+   This software is intended for personal, educational, and lawful use only.
+   Users must:
+   - Only download content they have the legal right to download
+   - Respect copyright laws in their jurisdiction
+   - Comply with platform terms of service (YouTube, SoundCloud, etc.)
+   - Not use this software for any illegal or unauthorized purposes
+
+5. NO ENDORSEMENT
+   This software is not affiliated with, endorsed by, or sponsored by YouTube,
+   SoundCloud, Google, or any other third-party service mentioned. All
+   trademarks and service marks are the property of their respective owners.
+
+6. THIRD-PARTY COMPONENTS
+   This software uses third-party libraries and tools, each with their own
+   licenses:
+   - yt-dlp: The Unlicense
+   - FFmpeg: LGPL v2.1+ or GPL v2+
+   - colorama: BSD License
+   - Python: PSF License
+
+   Users must comply with the licenses of these components.
+
+7. MODIFICATIONS AND DERIVATIVES
+   If you modify this software or create derivative works:
+   - You must clearly indicate that changes were made
+   - You must include this license with your distribution
+   - You must not use the original author's name to promote your version
+     without explicit permission
+
+8. DISTRIBUTION
+   When distributing this software or derivatives:
+   - Include this complete license file
+   - Include copyright notices
+   - Clearly state any modifications made
+   - Do not misrepresent the origin of the software
+
+9. COMMERCIAL USE
+   Commercial use is permitted under this license, but:
+   - You must comply with all terms of this license
+   - You must ensure your use complies with third-party licenses
+   - You must not imply endorsement by the original author
+   - You remain responsible for legal compliance
+
+10. TERMINATION
+    Your rights under this license terminate automatically if you fail to
+    comply with any of its terms. Upon termination, you must cease all use
+    and distribution of the software.
+
+11. GOVERNING LAW
+    This license shall be governed by and construed in accordance with the
+    laws applicable in your jurisdiction, without regard to conflict of law
+    principles.
+
+12. SEVERABILITY
+    If any provision of this license is held to be unenforceable, such
+    provision shall be reformed only to the extent necessary to make it
+    enforceable, and the remaining provisions shall remain in full force.
+
+13. ENTIRE AGREEMENT
+    This license constitutes the entire agreement between the parties
+    concerning the subject matter hereof and supersedes all prior agreements
+    and understandings.
+
+14. NO WARRANTY OF FUNCTIONALITY
+    The authors make no warranty that:
+    - The software will meet your requirements
+    - The software will be uninterrupted or error-free
+    - Any defects will be corrected
+    - The software is compatible with any particular platform
+
+15. INDEMNIFICATION
+    You agree to indemnify and hold harmless the authors and copyright holders
+    from any claims, damages, losses, liabilities, and expenses (including
+    legal fees) arising from your use or misuse of this software.
+
+================================================================================
+
+ETHICAL USE GUIDELINES
+
+While not legally binding, users are encouraged to:
+
+1. Respect Content Creators
+   - Support creators through official channels when possible
+   - Don't redistribute downloaded content without permission
+   - Consider the impact on content creators' livelihoods
+
+2. Personal Use Only
+   - Use downloads for personal enjoyment and backup
+   - Don't use for commercial purposes without proper licensing
+   - Don't circumvent paywalls or premium content restrictions
+
+3. Fair Use Consideration
+   - Understand fair use principles in your jurisdiction
+   - Use content in transformative ways when appropriate
+   - Give credit to original creators
+
+4. Platform Respect
+   - Don't abuse or overload platform servers
+   - Respect rate limits and access restrictions
+   - Don't use for automated mass downloading
+
+5. Privacy
+   - Don't download private or restricted content
+   - Respect privacy settings and access controls
+   - Don't share personal information obtained through downloads
+
+================================================================================
+
+CONTACT INFORMATION
+
+For questions about this license or the software:
+- GitHub: https://github.com/hiddeninsolitude/media-downloader
+- Issues: https://github.com/hiddeninsolitude/media-downloader/issues
+- Discord: @hiddeninsolitude
+
+For legal inquiries or license clarifications, please open an issue on GitHub.
+
+================================================================================
+
+ACKNOWLEDGMENTS
+
+This software builds upon the work of many open-source contributors. We are
+grateful to the developers of yt-dlp, FFmpeg, colorama, and the Python
+community for making this project possible.
+
+================================================================================
+
+Last Updated: January 2025
+Version: 1.0
+
