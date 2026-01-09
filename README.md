@@ -1,4 +1,4 @@
-﻿# �� Media Downloader - YouTube & SoundCloud
+﻿# Media Downloader - YouTube & SoundCloud
 
 <div align="center">
 
@@ -9,7 +9,7 @@
 
 **A powerful, colorful, and user-friendly command-line tool for downloading videos and audio from YouTube and SoundCloud**
 
-[Features](#features) • [Installation](#installation) • [Usage](#usage) • [Documentation](#documentation)  [Contributing](#contributing)
+[Features](#features) • [Installation](#installation) • [Usage](#usage) • [Documentation](#documentation) • [Contributing](#contributing)
 
 ![Screenshot](https://cdn.discordapp.com/attachments/1388116968741146677/1459236740823908465/HgCPV7E.png?ex=69628b9e&is=69613a1e&hm=9b1d0322e6b48b90e35de5e416c53eb2568ab3d44fe32f1526143cdc6e356dd3&)
 
@@ -17,7 +17,7 @@
 
 ---
 
-##  Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -46,23 +46,23 @@
 
 ---
 
-##  Overview
+## Overview
 
 Media Downloader is a feature-rich Python application that simplifies downloading content from YouTube and SoundCloud. With its beautiful ASCII art interface, automatic dependency management, and support for multiple formats, it provides a seamless downloading experience for users of all skill levels.
 
 ### Why Choose Media Downloader?
 
--  **Beautiful Interface**: Colorful ASCII art and intuitive menus make downloading enjoyable
--  **Zero Configuration**: Automatically installs and configures all dependencies
--  **Smart Organization**: Downloads are automatically sorted into format-specific folders
--  **Format Flexibility**: Choose from 6 different audio formats to suit your needs
--  **Quality Control**: Select video quality from 480p to 1080p
--  **Fast & Reliable**: Built on yt-dlp, the most powerful download engine available
--  **Safe & Open Source**: Fully transparent code you can review and modify
+- **Beautiful Interface**: Colorful ASCII art and intuitive menus make downloading enjoyable
+- **Zero Configuration**: Automatically installs and configures all dependencies
+- **Smart Organization**: Downloads are automatically sorted into format-specific folders
+- **Format Flexibility**: Choose from 6 different audio formats to suit your needs
+- **Quality Control**: Select video quality from 480p to 1080p
+- **Fast & Reliable**: Built on yt-dlp, the most powerful download engine available
+- **Safe & Open Source**: Fully transparent code you can review and modify
 
 ---
 
-##  Features
+## Features
 
 ### Core Features
 
@@ -99,13 +99,13 @@ Media Downloader is a feature-rich Python application that simplifies downloadin
 
 ---
 
-##  Screenshots
+## Screenshots
 
 ![Media Downloader Interface](https://cdn.discordapp.com/attachments/1388116968741146677/1459236740823908465/HgCPV7E.png?ex=69628b9e&is=69613a1e&hm=9b1d0322e6b48b90e35de5e416c53eb2568ab3d44fe32f1526143cdc6e356dd3&)
 
 ---
 
-##  Requirements
+## Requirements
 
 ### System Requirements
 
@@ -125,81 +125,81 @@ All dependencies are automatically installed by the script:
 
 ---
 
-##  Installation
+## Installation
 
 ### Quick Start (Recommended)
 
 1. **Download the script:**
-   `ash
+   ```bash
    git clone https://github.com/hiddeninsolitude/media-downloader.git
    cd media-downloader
-   `
+   ```
 
 2. **Run it:**
-   `ash
+   ```bash
    python downloader.py
-   `
+   ```
 
 That's it! The script will automatically install all required dependencies on first run.
 
 ### From Source
 
 **Step 1: Clone the Repository**
-`ash
+```bash
 git clone https://github.com/hiddeninsolitude/media-downloader.git
 cd media-downloader
-`
+```
 
 **Step 2: Install Dependencies (Optional)**
-`ash
+```bash
 pip install -r requirements.txt
-`
+```
 *Note: The script will auto-install these if you skip this step*
 
 **Step 3: Run the Script**
-`ash
+```bash
 python downloader.py
-`
+```
 
 ### Pre-built Executable (Windows)
 
 **For users who don't have Python installed:**
 
 1. Go to the [Releases](https://github.com/hiddeninsolitude/media-downloader/releases) page
-2. Download MediaDownloader.exe
+2. Download `MediaDownloader.exe`
 3. Double-click to run
 4. No installation needed!
 
-**Note**: Windows may show a security warning for unsigned executables. Click "More info"  "Run anyway"
+**Note**: Windows may show a security warning for unsigned executables. Click "More info" then "Run anyway"
 
 ### Build Your Own Executable
 
 **Windows:**
-`ash
+```bash
 # Double-click build_exe.bat
 # OR run manually:
 python -m PyInstaller --onefile --name="MediaDownloader" --console downloader.py
-`
+```
 
 **macOS/Linux:**
-`ash
+```bash
 pip install pyinstaller
 pyinstaller --onefile --name="MediaDownloader" --console downloader.py
-`
+```
 
-Your executable will be in the dist folder.
+Your executable will be in the `dist` folder.
 
 For detailed build instructions, see [BUILD_INSTRUCTIONS.md](BUILD_INSTRUCTIONS.md)
 
 ---
 
-##  Usage
+## Usage
 
 ### Basic Usage
 
-`ash
+```bash
 python downloader.py
-`
+```
 
 ### Step-by-Step Guide
 
@@ -209,37 +209,37 @@ python downloader.py
    - Dependencies are checked automatically
 
 **2. Select Platform**
-   `
+   ```
    Select platform:
    1. YouTube
    2. SoundCloud
    3. Spotify (Currently Unavailable)
    Enter choice (1-2):
-   `
+   ```
 
 **3. Enter URL**
    - Paste the full URL of the video or track
-   - Example: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+   - Example: `https://www.youtube.com/watch?v=dQw4w9WgXcQ`
 
 **4. Choose Format**
    
    **For YouTube:**
-   `
+   ```
    Select format:
    1. MP4 (Video)
    2. Audio only
-   `
+   ```
 
    **For Video (MP4):**
-   `
+   ```
    Select quality:
    1. 1080p
    2. 720p
    3. 480p
-   `
+   ```
 
    **For Audio:**
-   `
+   ```
    Select audio format:
    1. MP3 (192kbps) - Most compatible
    2. OPUS (128kbps) - Better quality at lower bitrate
@@ -247,16 +247,16 @@ python downloader.py
    4. FLAC - Lossless (large file)
    5. WAV - Uncompressed (very large)
    6. VORBIS (OGG) - Open source
-   `
+   ```
 
 **5. Wait for Download**
    - Progress will be displayed in real-time
    - Files are saved to the appropriate folder
 
 **6. Download More (Optional)**
-   `
+   ```
    Download another? (y/n):
-   `
+   ```
 
 ### Advanced Options
 
@@ -264,25 +264,25 @@ python downloader.py
 Run the script and keep selecting 'y' to download multiple files in one session.
 
 **Custom Output Directory:**
-Modify the output_dir variable in downloader.py to change the download location.
+Modify the `output_dir` variable in `downloader.py` to change the download location.
 
 **Silent Mode:**
 Dependencies are checked silently. The script only shows output during downloads.
 
 ---
 
-##  Audio Formats
+## Audio Formats
 
 ### Detailed Format Comparison
 
 | Format | Bitrate | Quality | File Size | Compatibility | Best For |
 |--------|---------|---------|-----------|---------------|----------|
-| **MP3** | 192 kbps | Good | Medium |  | General use, all devices |
-| **OPUS** | 128 kbps | Excellent | Small |  | Modern devices, streaming |
-| **AAC** | 192 kbps | Very Good | Medium |  | Apple devices, iTunes |
-| **FLAC** | Lossless | Perfect | Large |  | Audiophiles, archiving |
-| **WAV** | Lossless | Perfect | Very Large |  | Professional audio work |
-| **VORBIS** | Variable | Very Good | Medium |  | Open-source enthusiasts |
+| **MP3** | 192 kbps | Good | Medium | 5 stars | General use, all devices |
+| **OPUS** | 128 kbps | Excellent | Small | 4 stars | Modern devices, streaming |
+| **AAC** | 192 kbps | Very Good | Medium | 5 stars | Apple devices, iTunes |
+| **FLAC** | Lossless | Perfect | Large | 3 stars | Audiophiles, archiving |
+| **WAV** | Lossless | Perfect | Very Large | 4 stars | Professional audio work |
+| **VORBIS** | Variable | Very Good | Medium | 3 stars | Open-source enthusiasts |
 
 ### Format Recommendations
 
@@ -295,7 +295,7 @@ Dependencies are checked silently. The script only shows output during downloads
 
 ---
 
-##  Video Quality Options
+## Video Quality Options
 
 | Quality | Resolution | Typical File Size (10 min) | Best For |
 |---------|------------|----------------------------|----------|
@@ -307,35 +307,35 @@ Dependencies are checked silently. The script only shows output during downloads
 
 ---
 
-##  Download Organization
+## Download Organization
 
 All downloads are automatically organized into format-specific folders:
 
-`
+```
 downloads/
- mp3/          # MP3 audio files
- opus/         # OPUS audio files
- aac/          # AAC audio files
- flac/         # FLAC audio files
- wav/          # WAV audio files
- vorbis/       # VORBIS (OGG) audio files
- mp4/          # MP4 video files
-`
+├── mp3/          # MP3 audio files
+├── opus/         # OPUS audio files
+├── aac/          # AAC audio files
+├── flac/         # FLAC audio files
+├── wav/          # WAV audio files
+├── vorbis/       # VORBIS (OGG) audio files
+└── mp4/          # MP4 video files
+```
 
 **File Naming:**
 Files are automatically named using the video/track title from the platform, with special characters removed for compatibility.
 
-Example: Rick Astley - Never Gonna Give You Up.mp3
+Example: `Rick Astley - Never Gonna Give You Up.mp3`
 
 ---
 
-##  Supported Platforms
+## Supported Platforms
 
 | Platform | Video | Audio | Status | Notes |
 |----------|-------|-------|--------|-------|
-| **YouTube** |  |  | Active | Full support, all formats |
-| **SoundCloud** |  |  | Active | Audio only |
-| **Spotify** |  |  | Unavailable | API rate limits |
+| **YouTube** | Yes | Yes | Active | Full support, all formats |
+| **SoundCloud** | No | Yes | Active | Audio only |
+| **Spotify** | No | No | Unavailable | API rate limits |
 
 ### Coming Soon
 - Bandcamp support
@@ -345,19 +345,19 @@ Example: Rick Astley - Never Gonna Give You Up.mp3
 
 ---
 
-##  Technical Details
+## Technical Details
 
 ### Architecture
 
-`
+```
 Media Downloader
- Dependency Manager (Auto-install)
- Platform Selector (YouTube/SoundCloud)
- Format Selector (Video/Audio)
- Download Engine (yt-dlp)
- Format Converter (FFmpeg)
- File Organizer (Auto-sort)
-`
+├── Dependency Manager (Auto-install)
+├── Platform Selector (YouTube/SoundCloud)
+├── Format Selector (Video/Audio)
+├── Download Engine (yt-dlp)
+├── Format Converter (FFmpeg)
+└── File Organizer (Auto-sort)
+```
 
 ### Technologies Used
 
@@ -376,7 +376,7 @@ Media Downloader
 
 ---
 
-##  Troubleshooting
+## Troubleshooting
 
 ### Common Issues and Solutions
 
@@ -384,21 +384,21 @@ Media Downloader
 
 **Solution:**
 - **Windows**: The script auto-installs via winget. If it fails:
-  `ash
+  ```bash
   winget install Gyan.FFmpeg
-  `
+  ```
   Or download from https://ffmpeg.org/download.html
 
 - **macOS**:
-  `ash
+  ```bash
   brew install ffmpeg
-  `
+  ```
 
 - **Linux**:
-  `ash
+  ```bash
   sudo apt install ffmpeg  # Debian/Ubuntu
   sudo yum install ffmpeg  # CentOS/RHEL
-  `
+  ```
 
 #### Issue: "Some formats are missing"
 
@@ -406,7 +406,7 @@ Media Downloader
 
 **Solution**:
 - Try a different quality setting
-- Update yt-dlp: pip install --upgrade yt-dlp
+- Update yt-dlp: `pip install --upgrade yt-dlp`
 - Some videos may not have 1080p available
 
 #### Issue: "Download fails with error"
@@ -414,15 +414,15 @@ Media Downloader
 **Solutions**:
 1. Check your internet connection
 2. Verify the URL is correct and accessible
-3. Update yt-dlp: pip install --upgrade yt-dlp
+3. Update yt-dlp: `pip install --upgrade yt-dlp`
 4. Try a different video/track
 5. Check if the video is region-locked
 
 #### Issue: "Script won't start"
 
 **Solutions**:
-1. Verify Python version: python --version (must be 3.7+)
-2. Reinstall dependencies: pip install -r requirements.txt
+1. Verify Python version: `python --version` (must be 3.7+)
+2. Reinstall dependencies: `pip install -r requirements.txt`
 3. Run with admin/sudo if permission errors occur
 4. Check antivirus isn't blocking the script
 
@@ -439,7 +439,7 @@ Media Downloader
 
 **Solution**:
 - Windows: Use Windows Terminal or PowerShell (not CMD)
-- Update colorama: pip install --upgrade colorama
+- Update colorama: `pip install --upgrade colorama`
 - Some terminals don't support ANSI colors
 
 ### Getting Help
@@ -456,7 +456,7 @@ If you encounter issues not listed here:
 
 ---
 
-##  Frequently Asked Questions
+## Frequently Asked Questions
 
 **Q: Is this legal?**
 A: The tool itself is legal. However, downloading copyrighted content without permission may violate terms of service or copyright laws. Only download content you have the right to download.
@@ -475,9 +475,9 @@ A: Not currently. This may be added in a future version.
 
 **Q: How do I update the tool?**
 A: Pull the latest changes from GitHub:
-`ash
+```bash
 git pull origin main
-`
+```
 
 **Q: Can I use this on a server?**
 A: Yes, but you'll need to modify the script to remove interactive prompts for automated use.
@@ -487,35 +487,35 @@ A: No. The tool runs entirely locally and doesn't send any data anywhere except 
 
 ---
 
-##  Contributing
+## Contributing
 
 Contributions are welcome and appreciated! Here's how you can help:
 
 ### Ways to Contribute
 
--  **Report Bugs**: Open an issue with details
--  **Suggest Features**: Share your ideas in issues
--  **Improve Documentation**: Fix typos, add examples
--  **Submit Code**: Create pull requests
--  **Star the Project**: Show your support!
+- **Report Bugs**: Open an issue with details
+- **Suggest Features**: Share your ideas in issues
+- **Improve Documentation**: Fix typos, add examples
+- **Submit Code**: Create pull requests
+- **Star the Project**: Show your support!
 
 ### Development Setup
 
 1. Fork the repository
 2. Clone your fork:
-   `ash
+   ```bash
    git clone https://github.com/YOUR_USERNAME/media-downloader.git
-   `
+   ```
 3. Create a branch:
-   `ash
+   ```bash
    git checkout -b feature/your-feature-name
-   `
+   ```
 4. Make your changes
 5. Test thoroughly
 6. Commit with clear messages:
-   `ash
+   ```bash
    git commit -m "Add: feature description"
-   `
+   ```
 7. Push and create a pull request
 
 ### Code Style
@@ -535,30 +535,30 @@ Contributions are welcome and appreciated! Here's how you can help:
 
 ---
 
-##  License
+## License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for full details.
 
 ### What This Means
 
- **You CAN**:
+**You CAN**:
 - Use commercially
 - Modify the code
 - Distribute
 - Use privately
 - Sublicense
 
- **You CANNOT**:
+**You CANNOT**:
 - Hold the author liable
 - Use the author's name for promotion without permission
 
- **You MUST**:
+**You MUST**:
 - Include the original license
 - Include copyright notice
 
 ---
 
-##  Author
+## Author
 
 **Created by @hiddeninsolitude**
 
@@ -568,14 +568,14 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ### Support the Project
 
 If you find this project useful:
--  Star the repository
--  Report bugs
--  Suggest features
--  Share with others
+- Star the repository
+- Report bugs
+- Suggest features
+- Share with others
 
 ---
 
-##  Acknowledgments
+## Acknowledgments
 
 This project wouldn't be possible without these amazing open-source projects:
 
@@ -591,7 +591,7 @@ Special thanks to:
 
 ---
 
-##  Disclaimer
+## Disclaimer
 
 ### Important Legal Notice
 
@@ -612,13 +612,13 @@ This tool is provided for **educational and personal use only**. Users are respo
 ### Ethical Use
 
 Please use this tool responsibly:
--  Download your own content
--  Download content you have permission to download
--  Download public domain or Creative Commons content
--  Use for personal backup purposes
--  Don't download copyrighted content without permission
--  Don't redistribute downloaded content
--  Don't use for commercial purposes without proper licensing
+- Download your own content
+- Download content you have permission to download
+- Download public domain or Creative Commons content
+- Use for personal backup purposes
+- Don't download copyrighted content without permission
+- Don't redistribute downloaded content
+- Don't use for commercial purposes without proper licensing
 
 ### Platform Terms
 
@@ -630,7 +630,7 @@ Be aware that downloading content may violate platform terms of service:
 
 ---
 
-##  Project Stats
+## Project Stats
 
 ![GitHub stars](https://img.shields.io/github/stars/hiddeninsolitude/media-downloader?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/hiddeninsolitude/media-downloader?style=social)
@@ -639,7 +639,7 @@ Be aware that downloading content may violate platform terms of service:
 
 ---
 
-##  Roadmap
+## Roadmap
 
 ### Version 1.1 (Planned)
 - [ ] Playlist support
@@ -663,10 +663,10 @@ Be aware that downloading content may violate platform terms of service:
 
 <div align="center">
 
-###  If you find this project useful, please consider giving it a star! 
+### If you find this project useful, please consider giving it a star!
 
-**Made with  by @hiddeninsolitude**
+**Made with love by @hiddeninsolitude**
 
-[Report Bug](https://github.com/hiddeninsolitude/media-downloader/issues)  [Request Feature](https://github.com/hiddeninsolitude/media-downloader/issues)  [Discussions](https://github.com/hiddeninsolitude/media-downloader/discussions)
+[Report Bug](https://github.com/hiddeninsolitude/media-downloader/issues) • [Request Feature](https://github.com/hiddeninsolitude/media-downloader/issues) • [Discussions](https://github.com/hiddeninsolitude/media-downloader/discussions)
 
 </div>
