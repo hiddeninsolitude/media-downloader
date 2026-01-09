@@ -69,13 +69,16 @@ def download_video(url, format_type='mp4', quality='1080', platform='youtube', a
         }
     else:
         ydl_opts = {
-            'format': f'bestvideo[height<={quality}]+bestaudio/best[height<={quality}]/best',
+            'format': f'bestvideo[height<={quality}][vcodec^=avc]+bestaudio/bestvideo[height<={quality}]+bestaudio/best[height<={quality}]/best',
             'outtmpl': os.path.join(output_dir, '%(title)s.%(ext)s'),
             'merge_output_format': 'mp4',
             'postprocessors': [{
                 'key': 'FFmpegVideoConvertor',
                 'preferedformat': 'mp4',
             }],
+            'postprocessor_args': {
+                'ffmpeg': ['-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k']
+            },
         }
     
     try:
